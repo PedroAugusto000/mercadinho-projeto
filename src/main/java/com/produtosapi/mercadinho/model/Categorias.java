@@ -6,5 +6,6 @@ public enum Categorias {
 	BEBIDAS,
 	CARNES,
 	FRANGOS,
-	ALCÓOLICOS
+	ALCÓOLICOS,
+	ROUPA
 }

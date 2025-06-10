@@ -30,4 +30,8 @@ public class ProdutoService {
 	public void deletar(Produto produto) {
 		repository.delete(produto);
 	}
+	
+	public void atualizar(Produto produto) {
+		repository.save(produto);
+	}
 }

@@ -30,6 +30,6 @@ public class Produto {
     @Column(name = "categorias", length = 25, nullable = false)
     private Categorias categorias;
     
-    @Column(name = "imagem_url", length = 255, nullable = false)
+    @Column(name = "imagem_url", length = 255, nullable = true)
     private String imagemUrl;	
 }
